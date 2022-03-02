@@ -1,0 +1,300 @@
+* {
+  box-sizing: border-box;
+  margin: 8px;
+  padding:4px;
+}
+
+body {
+  background-image:url(.\images\695728.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
+  font-family: 'Caudex';font-size: 22px;
+  color: #947eb1;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+  font-weight: bolder;
+
+}
+
+body h2 {
+  font-size: 80%vw;
+}
+
+header {
+  padding: 20px 35px;
+  background:rgba(0, 0, 0, 0.73);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+header a {
+  text-decoration: none;
+  color: #926eb3;
+  
+}
+
+header nav {
+  margin: 7px 0;
+  padding: 4px;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+
+header h1{ 
+  font-weight: bold;
+  margin: 0;
+  font-size: 36px;
+  color: #08025f;
+}
+
+#middleheading{
+  border: none;
+}
+
+
+header h1 nav ul a {
+  margin: 0 30px;
+  font-weight: lighter;
+  font-size: 1.55vw;
+}
+
+header a:hover {
+  color:#414ac2;
+}
+
+.about-me {
+  background:rgba(0, 0, 0, 0.73);
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-evenly;
+}
+
+.about-mehead {
+flex: 0.5;
+min-width: 25%;
+flex-direction: column;
+display: flex;
+}
+
+
+.about-mepara {
+  flex:2;
+}
+
+.about-me p {
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  padding-left: 80px;
+}
+
+.about-me h2 {
+  display:flex;
+  justify-content: center;
+}
+
+.profile-pic {
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  padding-left:50px;
+  border: 5px solid #cabeda;
+  background-image:url(.\images\dark_banner.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  backface-visibility: visible;
+  margin-bottom: 30px;
+}
+
+.profile-pic img {
+  border: 2px solid #cabeda;
+}
+
+.projects {
+  background:rgba(0, 0, 0, 0.73);
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-around;
+}
+
+.projects img {
+  border:2px solid #947eb1;
+}
+
+.projects img:hover {
+  border: 3px solid #cabeda;
+}
+
+.projectshead {
+  flex: .2;
+  min-width: 20%;
+  flex-direction: column;
+  display: flex;
+  min-height: 150px;
+}
+
+.projects h2 {
+  min-width: 200px;
+  max-height: max-content;
+  display: flex;
+  justify-content: center;
+}
+
+.box-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  grid-gap: 1.5rem;
+  justify-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.box-flex {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  padding: .5rem;
+  text-align: center;
+  font-size: 1.2rem;
+  word-break: break-word;
+  color: #d9d9d9;
+  border-left: #cabeda;
+}
+.box-flex-bottom-right {
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.box-caption {
+  position: absolute;
+  max-width: 200px;
+  margin: 20px;
+  padding: .5rem;
+  word-break: break-word;
+  font-size: 1.25rem;
+  color: #f2f2f2;
+}
+
+.box-caption:hover {
+  color: #e6e6e6;
+  transition: all ease .5s;
+}
+
+.contact-me {
+  display:flex;
+  background:rgba(0, 0, 0, 0.73);
+  margin: auto;
+}
+
+.contact-me h2 {
+  display: flex;
+  justify-content: center;
+  min-width: 200px;
+  max-height: max-content;
+}
+
+.resume {
+  display:flex;
+  justify-content: space-evenly;
+  background:rgba(0, 0, 0, 0.73);
+  margin: 20px;
+
+}
+
+footer h2 {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  padding:0 120px;
+}
+
+ @media screen and (max-width: 768px) {
+  
+  body, nav, .contact-me {
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      flex: 0 80%;
+  }
+
+  body h2 { 
+    border-right: 0px transparent; 
+  }
+
+  .about-me h2 {
+    padding-left: 80px;
+  }
+
+  .contact-me h2 {
+    padding:0;
+  }
+
+  .projects {
+    justify-content:center;
+    flex-direction:column;
+    flex-wrap:wrap
+  }
+  
+  footer h2 {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  
+  body, nav, .contact-me {
+    display:flex;
+    justify-content: center;
+    flex-direction:column;
+  }
+
+  body h2 { 
+    border-right: 0px transparent;   
+  }
+
+  .aboutme {
+    font-size:smaller;
+  }
+
+  .projects {
+    justify-content:center;
+    flex-direction:column;
+    flex-wrap:wrap
+  }
+
+  .projects h2 {
+    padding-right: 80px;
+  }
+
+  .contact-me {
+    justify-content:center;
+    flex-direction:column;
+    
+  }
+
+  .contact-me h2 {
+    padding:0;
+  }
+
+  .flex-containerContact address {
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap:wrap;
+
+  }
+
+  footer h2 {
+    padding:0;
+  }
+  }
+
