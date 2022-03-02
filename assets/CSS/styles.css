@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image:url("..\images\695728.jpg");
+  background-image:url("../images/695728.jpg");
   background-repeat:no-repeat;
   background-size: cover;
   font-family: 'Caudex';font-size: 22px;
@@ -107,7 +107,7 @@ display: flex;
   align-items: center;
   padding-left:50px;
   border: 5px solid #cabeda;
-  background-image:url("..\images\dark_banner.jpg");
+  background-image:url("../images/dark_banner.jpg");
   background-repeat:no-repeat;
   background-size:cover;
   backface-visibility: visible;
