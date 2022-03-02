@@ -1,4 +1,7 @@
 Christopher Hoke/James Primitive's Portfolio
+
+![Image of Porfolio](assets\images\Portfolioimg.jpg)
+
 Purpose
 A portfolio for the aspiring developer James Primitive.
 
@@ -8,7 +11,6 @@ CSS
 Website
 https://github.com/PrimitiveJ/Portfolio
 
-Contribution
-Made with ❤️ by [James Primitive/Christopher James Hoke]
-assets\images\Portfolioimg.jpg - Screenshot Location
+Contributors: 
+James Primitive/Christopher Hoke.
 Made in 2022. 
