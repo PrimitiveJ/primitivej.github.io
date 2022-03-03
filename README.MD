@@ -1,6 +1,6 @@
 Christopher Hoke/James Primitive's Portfolio
 
-![Image of Porfolio](assets\images\Portfolioimg.jpg)
+![Image of Porfolio](assets/images/Portfolioimg.jpg)
 
 Purpose
 A portfolio for the aspiring developer James Primitive.
@@ -14,3 +14,4 @@ https://github.com/PrimitiveJ/Portfolio
 Contributors: 
 James Primitive/Christopher Hoke.
 Made in 2022. 
+assets/images/Portfolioimg.jpg
